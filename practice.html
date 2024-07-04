@@ -1,0 +1,2485 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      .container {
+ 
+        width: 350px;
+        margin: 100px auto;
+
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .container .container-wrap {
+        padding: 40px;
+      }
+
+      .img-card {
+
+        display: flex;
+        align-items: center;
+
+        justify-content: center;
+      }
+
+      .hello {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+      }
+      .input-group {
+        margin-bottom: 20px;
+      }
+      .input-group label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        display: block;
+      }
+      .input-group input {
+        width: -webkit-fill-available;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .fa-eye {
+        height: 20px;
+        width: 25px;
+        position: absolute;
+
+      }
+
+      .value {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+ 
+      }
+      .remember-me {
+        display: flex;
+        align-items: center;
+      }
+      .forget-password {
+        margin-left: auto; /* Push to the right */
+      }
+      .btn {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+      .btn:hover {
+        background-color: #0056b3;
+      }
+      .sign-up {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .sign-up i {
+        font-size: 40px;
+        margin: 0 10px;
+      }
+      .line {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      .textlast {
+        text-decoration: none;
+        color: rgb(146, 144, 145);
+        margin-left: 10px;
+      }
+      .pass {
+        color: rgb(146, 144, 145);
+        text-decoration: none;
+      }
+
+      .icon {
+        position: relative;
+
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+      }
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <div class="container-wrap">
+            <div class="img-card"><img src="pic.png" alt="image" /></div>
+            <h2 class="hello">SignUp</h2>
+            <form action="#">
+              <div class="input-group">
+                <label for="username">First Name</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+              <div class="input-group">
+                <label for="username">Last Name</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+              <div class="input-group">
+                <label for="username">Email</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+              <div class="input-group">
+                <label for="username">Phone</label>
+                <input type="text" id="username" name="username" required />
+              </div>
+      
+              <div class="input-group">
+                <label for="password">Password</label>
+      
+                <div class="icon">
+                  <input type="password" id="password" name="password" required />
+                  <i class="fas fa-eye fa-solid"></i>
+                </div>
+                
+              </div>
+              
+              <div class="input-group">
+                <label for="password">Confirm Password</label>
+      
+                <div class="icon">
+                  <input type="password" id="password" name="password" required />
+                  <i class="fas fa-eye fa-solid"></i>
+                </div>
+                
+              </div>
+              <br />
+              <br />
+      
+              <div class="value">
+                <div class="remember-me">
+                  <input type="checkbox" id="remember" name="remember" />
+                  <label for="remember">Remember Me</label>
+                </div>
+          
+              </div>
+      
+              <button type="submit" class="btn">SignUp</button>
+            </form>
+            <div class="sign-up">
+              <h3>OR</h3>
+      
+              <i class="fab fa-facebook" style="color: #09369f"></i>
+              <i class="fab fa-google-plus" style="color: #d8523d"></i>
+            </div>
+      
+            <div class="line">
+              <span>Already have account?</span>
+      
+              <a class="textlast" href="Done.html">Log-in</a>
+            </div>
+        </div>
+    </div>
+  </body>
+</html> -->
+<div class="">
+  <form action="#" id="userPhoneForm" class="sky-form" method="post">
+      <input type="hidden" name="_csrf" value="46bb0e52-b857-4307-b979-ec5ea93b2eca" />
+   
+      <input type="hidden" name="id" id="id" value="" />
+      <input type="hidden" name="phoneCode" id="phoneCode" />
+
+      <div>
+          <section class="form-inline sky-form page-search-form margin-bottom-10">
+              <style>
+                  #countryId {
+                      width: 150px !important;
+                  }
+              </style>
+              <div class="phoneCodeDiv">
+                  <span>
+                      <select id="countryId" name="countryId" data-placeholder="Code" class="js-example-basic-single form-control vertical-align-middle" tabindex="-1">
+                          <option value=""> </option>
+                          
+                              
+                                  
+                                  
+                                      <option value="2" title="93">+93 Afghanistan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="280" title="358">+358 Åland Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="5" title="355">+355 Albania </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="67" title="213">+213 Algeria </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="12" title="1684">+1684 American Samoa </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="6" title="376">+376 Andorra </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="4" title="244">+244 Angola </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="285" title="1264">+1264 Anguilla </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="281" title="672">+672 Antarctica </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="13" title="1268">+1268 Antigua and Barbuda </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="10" title="54">+54 Argentina </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="11" title="374">+374 Armenia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="1" title="297">+297 Aruba </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="14" title="61">+61 Australia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="15" title="43">+43 Austria </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="16" title="994">+994 Azerbaijan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="23" title="973">+973 Bahrain </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="21" title="880">+880 Bangladesh </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="31" title="1246">+1246 Barbados </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="26" title="375">+375 Belarus </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="18" title="32">+32 Belgium </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="27" title="501">+501 Belize </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="19" title="229">+229 Benin </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="28" title="1441">+1441 Bermuda </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="33" title="975">+975 Bhutan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="29" title="591">+591 Bolivia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="25" title="387">+387 Bosnia and Herzegovina </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="34" title="267">+267 Botswana </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="299" title="47">+47 Bouvet Island </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="30" title="55">+55 Brazil </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="288" title="246">+246 British Indian Ocean Territory </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="259" title="1284">+1284 British Virgin Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="32" title="673">+673 Brunei Darussalam </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="22" title="359">+359 Bulgaria </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="20" title="226">+226 Burkina Faso </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="17" title="257">+257 Burundi </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="125" title="855">+855 Cambodia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="48" title="237">+237 Cameroon </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="37" title="1">+1 Canada </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="53" title="238">+238 Cape Verde </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="289" title="599">+599 Caribbean Netherlands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="59" title="1345">+1345 Cayman Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="36" title="236">+236 Central African Republic </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="238" title="235">+235 Chad </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="42" title="44">+44 Channel Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="43" title="56">+56 Chile </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="44" title="86">+86 China </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="287" title="61">+61 Christmas Island </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="300" title="61">+61 Cocos (Keeling) Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="51" title="57">+57 Colombia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="52" title="269">+269 Comoros </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="49" title="243">+243 Congo, Dem. Rep. </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="50" title="242">+242 Congo, Rep. </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="297" title="682">+682 Cook Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="54" title="506">+506 Costa Rica </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="45" title="225">+225 Cote d'Ivoire </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="106" title="385">+385 Croatia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="57" title="53">+53 Cuba </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="58" title="5999">+5999 Curacao </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="60" title="357">+357 Cyprus </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="61" title="420">+420 Czech Republic </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="65" title="45">+45 Denmark </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="63" title="253">+253 Djibouti </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="64" title="1767">+1767 Dominica </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="66" title="1">+1 Dominican Republic </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="73" title="593">+593 Ecuador </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="74" title="20">+20 Egypt </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="219" title="503">+503 El Salvador </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="95" title="240">+240 Equatorial Guinea </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="76" title="291">+291 Eritrea </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="78" title="372">+372 Estonia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="79" title="251">+251 Ethiopia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="283" title="500">+500 Falkland Islands (Islas Malvinas) </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="85" title="298">+298 Faroe Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="83" title="679">+679 Fiji </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="82" title="358">+358 Finland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="84" title="33">+33 France </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="278" title="594">+594 French Guiana </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="206" title="689">+689 French Polynesia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="87" title="241">+241 Gabon </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="89" title="995">+995 Georgia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="62" title="49">+49 Germany </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="90" title="233">+233 Ghana </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="91" title="350">+350 Gibraltar </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="96" title="30">+30 Greece </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="98" title="299">+299 Greenland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="97" title="1473">+1473 Grenada </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="273" title="590">+590 Guadeloupe </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="100" title="1671">+1671 Guam </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="99" title="502">+502 Guatemala </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="291" title="44">+44 Guernsey </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="92" title="224">+224 Guinea </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="94" title="245">+245 Guinea-Bissau </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="101" title="592">+592 Guyana </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="107" title="509">+509 Haiti </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="294" title="61">+61 Heard Island and McDonald Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="104" title="504">+504 Honduras </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="103" title="852">+852 Hong Kong </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="108" title="36">+36 Hungary </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="116" title="354">+354 Iceland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="111" title="91">+91 India </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="109" title="62">+62 Indonesia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="114" title="98">+98 Iran </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="115" title="964">+964 Iraq </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="113" title="353">+353 Ireland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="110" title="44">+44 Isle of Man </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="117" title="972">+972 Israel </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="118" title="39">+39 Italy </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="119" title="1876">+1876 Jamaica </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="121" title="81">+81 Japan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="270" title="44">+44 Jersey </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="120" title="962">+962 Jordan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="122" title="7">+7 Kazakhstan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="123" title="254">+254 Kenya </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="126" title="686">+686 Kiribati </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="129" title="383">+383 Kosovo </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="130" title="965">+965 Kuwait </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="124" title="996">+996 Kyrgyz Republic </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="132" title="856">+856 Lao PDR </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="149" title="371">+371 Latvia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="133" title="961">+961 Lebanon </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="145" title="266">+266 Lesotho </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="134" title="231">+231 Liberia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="135" title="218">+218 Libya </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="141" title="423">+423 Liechtenstein </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="147" title="370">+370 Lithuania </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="148" title="352">+352 Luxembourg </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="150" title="853">+853 Macau </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="163" title="389">+389 Macedonia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="157" title="261">+261 Madagascar </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="174" title="265">+265 Malawi </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="175" title="60">+60 Malaysia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="158" title="960">+960 Maldives </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="164" title="223">+223 Mali </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="165" title="356">+356 Malta </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="161" title="692">+692 Marshall Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="274" title="596">+596 Martinique </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="172" title="222">+222 Mauritania </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="173" title="230">+230 Mauritius </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="286" title="262">+262 Mayotte </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="160" title="52">+52 Mexico </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="86" title="691">+691 Micronesia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="155" title="373">+373 Moldova </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="154" title="377">+377 Monaco </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="169" title="976">+976 Mongolia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="168" title="382">+382 Montenegro </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="292" title="1664">+1664 Montserrat </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="152" title="212">+212 Morocco </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="171" title="258">+258 Mozambique </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="166" title="95">+95 Myanmar </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="178" title="264">+264 Namibia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="186" title="674">+674 Nauru </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="185" title="977">+977 Nepal </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="183" title="31">+31 Netherlands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="179" title="687">+687 New Caledonia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="187" title="64">+64 New Zealand </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="182" title="505">+505 Nicaragua </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="180" title="227">+227 Niger </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="181" title="234">+234 Nigeria </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="298" title="683">+683 Niue </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="296" title="672">+672 Norfolk Island </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="200" title="850">+850 North Korea </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="170" title="1670">+1670 Northern Mariana Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="184" title="47">+47 Norway </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="189" title="968">+968 Oman </option>
+                                  
+                              
+                          
+                              
+                                  
+                                      <option selected="selected" value="191" title="92">+92 Pakistan</option>
+                                  
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="195" title="680">+680 Palau </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="282" title="970">+970 Palestine </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="192" title="507">+507 Panama </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="196" title="675">+675 Papua New Guinea </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="202" title="595">+595 Paraguay </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="193" title="51">+51 Peru </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="194" title="63">+63 Philippines </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="197" title="48">+48 Poland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="201" title="351">+351 Portugal </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="199" title="1">+1 Puerto Rico </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="207" title="974">+974 Qatar </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="272" title="262">+262 Reunion </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="208" title="40">+40 Romania </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="209" title="7">+7 Russian Federation </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="210" title="250">+250 Rwanda </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="275" title="590">+590 Saint Barthélemy </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="290" title="290">+290 Saint Helena, Ascension and Tristan da Cunha </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="276" title="508">+508 Saint Pierre and Miquelon </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="263" title="685">+685 Samoa </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="220" title="378">+378 San Marino </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="227" title="239">+239 Sao Tome and Principe </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="212" title="966">+966 Saudi Arabia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="215" title="221">+221 Senegal </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="222" title="381">+381 Serbia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="235" title="248">+248 Seychelles </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="218" title="232">+232 Sierra Leone </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="216" title="65">+65 Singapore </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="233" title="1721">+1721 Sint Maarten (Dutch part) </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="229" title="421">+421 Slovakia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="230" title="386">+386 Slovenia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="217" title="677">+677 Solomon Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="221" title="252">+252 Somalia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="266" title="27">+27 South Africa </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="295" title="500">+500 South Georgia and the South Sandwich Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="128" title="82">+82 South Korea </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="224" title="211">+211 South Sudan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="77" title="34">+34 Spain </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="142" title="94">+94 Sri Lanka </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="127" title="1869">+1869 St. Kitts and Nevis </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="136" title="1758">+1758 St. Lucia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="151" title="590">+590 St. Martin (French part) </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="257" title="1784">+1784 St. Vincent and the Grenadines </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="214" title="249">+249 Sudan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="228" title="597">+597 Suriname </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="293" title="47">+47 Svalbard and Jan Mayen </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="232" title="268">+268 Swaziland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="231" title="46">+46 Sweden </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="41" title="41">+41 Switzerland </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="236" title="963">+963 Syrian Arab Republic </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="249" title="886">+886 Taiwan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="241" title="992">+992 Tajikistan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="250" title="255">+255 Tanzania </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="240" title="66">+66 Thailand </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="24" title="1242">+1242 The Bahamas </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="93" title="220">+220 The Gambia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="243" title="670">+670 Timor-Leste </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="239" title="228">+228 Togo </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="284" title="690">+690 Tokelau </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="244" title="676">+676 Tonga </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="245" title="1868">+1868 Trinidad and Tobago </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="246" title="216">+216 Tunisia </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="247" title="90">+90 Turkey </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="242" title="993">+993 Turkmenistan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="237" title="1649">+1649 Turks and Caicos Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="248" title="688">+688 Tuvalu </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="251" title="256">+256 Uganda </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="252" title="380">+380 Ukraine </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="9" title="971">+971 United Arab Emirates </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="88" title="44">+44 United Kingdom </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="255" title="1">+1 United States </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="269" title="1">+1 United States Minor Outlying Islands </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="254" title="598">+598 Uruguay </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="256" title="998">+998 Uzbekistan </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="262" title="678">+678 Vanuatu </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="271" title="379">+379 Vatican City </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="258" title="58">+58 Venezuela </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="261" title="84">+84 Vietnam </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="260" title="1284">+1284 Virgin Islands (U.S.) </option>
+                                  
+                              
+                          
+                              
+                                  
+                                  
+                                      <option value="277" title="681">+681 Wallis and Futuna </option>
+                                  
+                              
+                                      <option value="279" title="212">+212 Western Sahara </option>
+                                  
+                                      <option value="265" title="967">+967 Yemen, Rep. </option>
+                                  
+                                      <option value="267" title="260">+260 Zambia </option>
+                                  
+                              
+                                      <option value="268" title="263">+263 Zimbabwe </option>
+                                  
+                              
+                          
+                      </select>
+                  </span>
+              </div>
+            
+          </section>
+
+          <section>
+
+
+<!-- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <div>
+              <section class="form-inline sky-form page-search-form margin-bottom-10">
+                  <style>
+                      #countryId {
+                          width: 150px !important;
+                      }
+                  </style>
+                  <div class="phoneCodeDiv">
+                      <span>
+                          <select id="countryId" name="countryId" data-placeholder="Code" class="js-example-basic-single form-control vertical-align-middle" tabindex="-1">
+                              <option value=""> </option>
+                              
+                                  
+                                      
+                                      
+                                          <option value="2" title="93">+93 Afghanistan </option>
+                                      
+                                          <option value="280" title="358">+358 Åland Islands </option>
+                                      
+                                          <option value="5" title="355">+355 Albania </option>
+                                      
+                                          <option value="67" title="213">+213 Algeria </option>
+                                      
+                                          <option value="12" title="1684">+1684 American Samoa </option>
+                                      
+                                          <option value="6" title="376">+376 Andorra </option>
+                                      
+                                          <option value="4" title="244">+244 Angola </option>
+                                      
+                                          <option value="285" title="1264">+1264 Anguilla </option>
+                                      
+                                          <option value="281" title="672">+672 Antarctica </option>
+                                      
+                                          <option value="13" title="1268">+1268 Antigua and Barbuda </option>
+                                      
+                                          <option value="10" title="54">+54 Argentina </option>
+                                      
+                                          <option value="11" title="374">+374 Armenia </option>
+                                      
+                                          <option value="1" title="297">+297 Aruba </option>
+                                      
+                                          <option value="14" title="61">+61 Australia </option>
+                                      
+                                          <option value="15" title="43">+43 Austria </option>
+                                      
+                                          <option value="16" title="994">+994 Azerbaijan </option>
+                                      
+                                          <option value="23" title="973">+973 Bahrain </option>
+                                      
+                                          <option value="21" title="880">+880 Bangladesh </option>
+                                      
+                                          <option value="31" title="1246">+1246 Barbados </option>
+                                      
+                                          <option value="26" title="375">+375 Belarus </option>
+                                      
+                                          <option value="18" title="32">+32 Belgium </option>
+                                      
+                                          <option value="27" title="501">+501 Belize </option>
+                                      
+                                          <option value="19" title="229">+229 Benin </option>
+                                      
+                                          <option value="28" title="1441">+1441 Bermuda </option>
+                                      
+                                          <option value="33" title="975">+975 Bhutan </option>
+                                      
+                                          <option value="29" title="591">+591 Bolivia </option>
+                                      
+                                          <option value="25" title="387">+387 Bosnia and Herzegovina </option>
+                                      
+                                          <option value="34" title="267">+267 Botswana </option>
+                                      
+                                          <option value="299" title="47">+47 Bouvet Island </option>
+                                      
+                                          <option value="30" title="55">+55 Brazil </option>
+                                      
+                                          <option value="288" title="246">+246 British Indian Ocean Territory </option>
+                                      
+                                          <option value="259" title="1284">+1284 British Virgin Islands </option>
+                                      
+                                          <option value="32" title="673">+673 Brunei Darussalam </option>
+                                      
+                                          <option value="22" title="359">+359 Bulgaria </option>
+                                      
+                                          <option value="20" title="226">+226 Burkina Faso </option>
+                                      
+                                          <option value="17" title="257">+257 Burundi </option>
+                                      
+                                          <option value="125" title="855">+855 Cambodia </option>
+                                      
+                                          <option value="48" title="237">+237 Cameroon </option>
+                                      
+                                          <option value="37" title="1">+1 Canada </option>
+                                      
+                                          <option value="53" title="238">+238 Cape Verde </option>
+                                      
+                                          <option value="289" title="599">+599 Caribbean Netherlands </option>
+                                      
+                                          <option value="59" title="1345">+1345 Cayman Islands </option>
+                                      
+                                          <option value="36" title="236">+236 Central African Republic </option>
+                                      
+                                          <option value="238" title="235">+235 Chad </option>
+                                      
+                                          <option value="42" title="44">+44 Channel Islands </option>
+                                      
+                                          <option value="43" title="56">+56 Chile </option>
+                                      
+                                          <option value="44" title="86">+86 China </option>
+                                      
+                                          <option value="287" title="61">+61 Christmas Island </option>
+                                      
+                                          <option value="300" title="61">+61 Cocos (Keeling) Islands </option>
+                                      
+                                          <option value="51" title="57">+57 Colombia </option>
+                                      
+                                          <option value="52" title="269">+269 Comoros </option>
+                                      
+                                          <option value="49" title="243">+243 Congo, Dem. Rep. </option>
+                                      
+                                          <option value="50" title="242">+242 Congo, Rep. </option>
+                                      
+                                          <option value="297" title="682">+682 Cook Islands </option>
+                                      
+                                          <option value="54" title="506">+506 Costa Rica </option>
+                                      
+                                          <option value="45" title="225">+225 Cote d'Ivoire </option>
+                                      
+                                          <option value="106" title="385">+385 Croatia </option>
+                                      
+                                          <option value="57" title="53">+53 Cuba </option>
+                                  
+                                          <option value="58" title="5999">+5999 Curacao </option>
+                                      
+                                          <option value="60" title="357">+357 Cyprus </option>
+                                      
+                                          <option value="61" title="420">+420 Czech Republic </option>
+                                      
+                                          <option value="65" title="45">+45 Denmark </option>
+                                      
+                                          <option value="63" title="253">+253 Djibouti </option>
+                                      
+                                          <option value="64" title="1767">+1767 Dominica </option>
+                                      
+                                          <option value="66" title="1">+1 Dominican Republic </option>
+                                      
+                                          <option value="73" title="593">+593 Ecuador </option>
+                                      
+                                          <option value="74" title="20">+20 Egypt </option>
+                                      
+                                          <option value="219" title="503">+503 El Salvador </option>
+                                      
+                                          <option value="95" title="240">+240 Equatorial Guinea </option>
+                                      
+                                          <option value="76" title="291">+291 Eritrea </option>
+                                      
+                                          <option value="78" title="372">+372 Estonia </option>
+                                      
+                                          <option value="79" title="251">+251 Ethiopia </option>
+                                      
+                                          <option value="283" title="500">+500 Falkland Islands (Islas Malvinas) </option>
+                                      
+                                          <option value="85" title="298">+298 Faroe Islands </option>
+                                      
+                                          <option value="83" title="679">+679 Fiji </option>
+                                      
+                                          <option value="82" title="358">+358 Finland </option>
+                                      
+                                          <option value="84" title="33">+33 France </option>
+                                      
+                                          <option value="278" title="594">+594 French Guiana </option>
+                                      
+                                          <option value="206" title="689">+689 French Polynesia </option>
+                                      
+                                          <option value="87" title="241">+241 Gabon </option>
+                                      
+                                          <option value="89" title="995">+995 Georgia </option>
+                                      
+                                          <option value="62" title="49">+49 Germany </option>
+                                      
+                                          <option value="90" title="233">+233 Ghana </option>
+                                      
+                                          <option value="91" title="350">+350 Gibraltar </option>
+                                      
+                                          <option value="96" title="30">+30 Greece </option>
+                                      
+                                          <option value="98" title="299">+299 Greenland </option>
+                                      
+                                          <option value="97" title="1473">+1473 Grenada </option>
+                                      
+                                          <option value="273" title="590">+590 Guadeloupe </option>
+                                      
+                                          <option value="100" title="1671">+1671 Guam </option>
+                                      
+                                          <option value="99" title="502">+502 Guatemala </option>
+                                      
+                                          <option value="291" title="44">+44 Guernsey </option>
+                                      
+                                          <option value="92" title="224">+224 Guinea </option>
+                                      
+                                          <option value="94" title="245">+245 Guinea-Bissau </option>
+                                      
+                                          <option value="101" title="592">+592 Guyana </option>
+                                      
+                                          <option value="107" title="509">+509 Haiti </option>
+                                      
+                                          <option value="294" title="61">+61 Heard Island and McDonald Islands </option>
+                                      
+                                          <option value="104" title="504">+504 Honduras </option>
+                                      
+                                          <option value="103" title="852">+852 Hong Kong </option>
+                                      
+                                          <option value="108" title="36">+36 Hungary </option>
+                                      
+                                          <option value="116" title="354">+354 Iceland </option>
+                                      
+                                          <option value="111" title="91">+91 India </option>
+                                      
+                                          <option value="109" title="62">+62 Indonesia </option>
+                                      
+                                          <option value="114" title="98">+98 Iran </option>
+                                      
+                                          <option value="115" title="964">+964 Iraq </option>
+                                      
+                                          <option value="113" title="353">+353 Ireland </option>
+                                      
+                                          <option value="110" title="44">+44 Isle of Man </option>
+                                      
+                                          <option value="118" title="39">+39 Italy </option>
+                                 
+                                          <option value="119" title="1876">+1876 Jamaica </option>
+                                      
+                                          <option value="121" title="81">+81 Japan </option>
+                                      
+                                          <option value="270" title="44">+44 Jersey </option>
+                                      
+                                          <option value="120" title="962">+962 Jordan </option>
+                                      
+                                          <option value="122" title="7">+7 Kazakhstan </option>
+                                      
+                                         <option value="123" title="254">+254 Kenya </option>
+                                  
+                                          <option value="126" title="686">+686 Kiribati </option> 
+                                      
+                                          <option value="129" title="383">+383 Kosovo </option>
+                                      
+                                          <option value="130" title="965">+965 Kuwait </option>
+      
+                                          <option value="124" title="996">+996 Kyrgyz Republic </option>
+                                      
+                                          <option value="132" title="856">+856 Lao PDR </option>
+                                      
+                                          <option value="149" title="371">+371 Latvia </option>
+                                      
+                                          <option value="133" title="961">+961 Lebanon </option>
+                                      
+                                          <option value="145" title="266">+266 Lesotho </option>
+                                      
+                                          <option value="134" title="231">+231 Liberia </option>
+                                      
+                                          <option value="135" title="218">+218 Libya </option>
+                                      
+                                          <option value="141" title="423">+423 Liechtenstein </option>
+                                      
+                                          <option value="147" title="370">+370 Lithuania </option>
+                                      
+                                          <option value="148" title="352">+352 Luxembourg </option>
+                                      
+                                          <option value="150" title="853">+853 Macau </option>
+                                      
+                                          <option value="163" title="389">+389 Macedonia </option>
+                                      
+                                          <option value="157" title="261">+261 Madagascar </option>
+                                      
+                                          <option value="174" title="265">+265 Malawi </option>
+                                      
+                                          <option value="175" title="60">+60 Malaysia </option>
+                                      
+                                          <option value="158" title="960">+960 Maldives </option>
+                                      
+                                          <option value="164" title="223">+223 Mali </option>
+                                      
+                                          <option value="165" title="356">+356 Malta </option>
+                                      
+                                          <option value="161" title="692">+692 Marshall Islands </option>
+                                      
+                                          <option value="274" title="596">+596 Martinique </option>
+                                      
+                                          <option value="172" title="222">+222 Mauritania </option>
+                                      
+                                          <option value="173" title="230">+230 Mauritius </option>
+                                      
+                                          <option value="286" title="262">+262 Mayotte </option>
+                                      
+                                          <option value="160" title="52">+52 Mexico </option>
+                                      
+                                          <option value="86" title="691">+691 Micronesia </option>
+                                      
+                                          <option value="155" title="373">+373 Moldova </option>
+                                      
+                                          <option value="154" title="377">+377 Monaco </option>
+                                      
+                                          <option value="169" title="976">+976 Mongolia </option>
+                                      
+                                          <option value="168" title="382">+382 Montenegro </option>
+                                      
+                                          <option value="292" title="1664">+1664 Montserrat </option>
+                                      
+                                          <option value="152" title="212">+212 Morocco </option>
+                                      
+                                          <option value="171" title="258">+258 Mozambique </option>
+                                      
+                                          <option value="166" title="95">+95 Myanmar </option>
+                                      
+                                          <option value="178" title="264">+264 Namibia </option>
+                                      
+                                          <option value="186" title="674">+674 Nauru </option>
+                                      
+                                          <option value="185" title="977">+977 Nepal </option>
+                                      
+                                          <option value="183" title="31">+31 Netherlands </option>
+                                      
+                                          <option value="179" title="687">+687 New Caledonia </option>
+                                      
+                                          <option value="187" title="64">+64 New Zealand </option>
+                                      
+                                          <option value="182" title="505">+505 Nicaragua </option>
+                                      
+                                          <option value="180" title="227">+227 Niger </option>
+                                      
+                                          <option value="181" title="234">+234 Nigeria </option>
+                                      
+                                          <option value="298" title="683">+683 Niue </option>
+                          
+                                          <option value="296" title="672">+672 Norfolk Island </option>
+                                      
+                                          <option value="200" title="850">+850 North Korea </option>
+                                      
+                                          <option value="170" title="1670">+1670 Northern Mariana Islands </option>
+                                      
+                                          <option value="184" title="47">+47 Norway </option>
+                                      
+                                          <option value="189" title="968">+968 Oman </option>
+                                      
+                                          <option selected="selected" value="191" title="92">+92 Pakistan</option>
+                                      
+                                          <option value="195" title="680">+680 Palau </option>
+                                      
+                                          <option value="282" title="970">+970 Palestine </option>
+                                      
+                                          <option value="192" title="507">+507 Panama </option>
+                                      
+                                          <option value="196" title="675">+675 Papua New Guinea </option>
+                                      
+                                          <option value="202" title="595">+595 Paraguay </option>
+                                      
+                                          <option value="193" title="51">+51 Peru </option>
+                                      
+                                          <option value="194" title="63">+63 Philippines </option>
+                                      
+                                          <option value="197" title="48">+48 Poland </option>
+                                      
+                                          <option value="201" title="351">+351 Portugal </option>
+                                      
+                                          <option value="199" title="1">+1 Puerto Rico </option>
+                                      
+                                          <option value="207" title="974">+974 Qatar </option>
+                                      
+                                          <option value="272" title="262">+262 Reunion </option>
+                                      
+                                          <option value="208" title="40">+40 Romania </option>
+                                      
+                                          <option value="209" title="7">+7 Russian Federation </option>
+                                      
+                                          <option value="210" title="250">+250 Rwanda </option>
+                                      
+                                          <option value="275" title="590">+590 Saint Barthélemy </option>
+                                      
+                                          <option value="290" title="290">+290 Saint Helena, Ascension and Tristan da Cunha </option>
+                                      
+                                          <option value="276" title="508">+508 Saint Pierre and Miquelon </option>
+                                      
+                                          <option value="263" title="685">+685 Samoa </option>
+                                      
+                                          <option value="220" title="378">+378 San Marino </option>
+                                      
+                                          <option value="227" title="239">+239 Sao Tome and Principe </option>
+                                      
+                                          <option value="212" title="966">+966 Saudi Arabia </option>
+                                      
+                                          <option value="215" title="221">+221 Senegal </option>
+                                      
+                                          <option value="222" title="381">+381 Serbia </option>
+                                      
+                                          <option value="235" title="248">+248 Seychelles </option>
+                                      
+                                          <option value="218" title="232">+232 Sierra Leone </option>
+                                      
+                                          <option value="216" title="65">+65 Singapore </option>
+                                      
+                                          <option value="233" title="1721">+1721 Sint Maarten (Dutch part) </option>
+                                      
+                                          <option value="229" title="421">+421 Slovakia </option>
+                                      
+                                          <option value="230" title="386">+386 Slovenia </option>
+                                      
+                                          <option value="217" title="677">+677 Solomon Islands </option>
+                                      
+                                          <option value="221" title="252">+252 Somalia </option>
+                                      
+                                          <option value="266" title="27">+27 South Africa </option>
+                                      
+                                          <option value="295" title="500">+500 South Georgia and the South Sandwich Islands </option>
+                                      
+                                          <option value="128" title="82">+82 South Korea </option>
+                                      
+                                          <option value="224" title="211">+211 South Sudan </option>
+                                      
+                                          <option value="77" title="34">+34 Spain </option>
+                                      
+                                          <option value="142" title="94">+94 Sri Lanka </option>
+                                      
+                                          <option value="127" title="1869">+1869 St. Kitts and Nevis </option>
+                                      
+                                          <option value="136" title="1758">+1758 St. Lucia </option>
+                                      
+                                          <option value="151" title="590">+590 St. Martin (French part) </option>
+                                      
+                                          <option value="257" title="1784">+1784 St. Vincent and the Grenadines </option>
+                                      
+                                          <option value="214" title="249">+249 Sudan </option>
+                                      
+                                          <option value="228" title="597">+597 Suriname </option>
+                                      
+                                          <option value="293" title="47">+47 Svalbard and Jan Mayen </option>
+                                      
+                                          <option value="232" title="268">+268 Swaziland </option>
+                                      
+                                          <option value="231" title="46">+46 Sweden </option>
+                                      
+                                          <option value="41" title="41">+41 Switzerland </option>
+                                      
+                                          <option value="236" title="963">+963 Syrian Arab Republic </option>
+                                      
+                                          <option value="249" title="886">+886 Taiwan </option>
+                                      
+                                          <option value="241" title="992">+992 Tajikistan </option>
+                                      
+                                          <option value="250" title="255">+255 Tanzania </option>
+                                      
+                                          <option value="240" title="66">+66 Thailand </option>
+                                      
+                                          <option value="24" title="1242">+1242 The Bahamas </option>
+                                      
+                                          <option value="93" title="220">+220 The Gambia </option>
+                                      
+                                          <option value="243" title="670">+670 Timor-Leste </option>
+                                      
+                                          <option value="239" title="228">+228 Togo </option>
+                                      
+                                          <option value="284" title="690">+690 Tokelau </option>
+                                      
+                                          <option value="244" title="676">+676 Tonga </option>
+                                      
+                                          <option value="245" title="1868">+1868 Trinidad and Tobago </option>
+                                      
+                                          <option value="246" title="216">+216 Tunisia </option>
+                                      
+                                          <option value="247" title="90">+90 Turkey </option>
+                                      
+                                          <option value="242" title="993">+993 Turkmenistan </option>
+                                      
+                                          <option value="237" title="1649">+1649 Turks and Caicos Islands </option>
+                                      
+                                          <option value="248" title="688">+688 Tuvalu </option>
+                                      
+                                          <option value="251" title="256">+256 Uganda </option>
+                                      
+                                          <option value="252" title="380">+380 Ukraine </option>
+                                      
+                                          <option value="9" title="971">+971 United Arab Emirates </option>
+                                      
+                                          <option value="88" title="44">+44 United Kingdom </option>
+                                      
+                                          <option value="255" title="1">+1 United States </option>
+                                      
+                                          <option value="269" title="1">+1 United States Minor Outlying Islands </option>
+                                      
+                                          <option value="254" title="598">+598 Uruguay </option>
+                                      
+                                          <option value="256" title="998">+998 Uzbekistan </option>
+                                      
+                                          <option value="262" title="678">+678 Vanuatu </option>
+                                      
+                                          <option value="271" title="379">+379 Vatican City </option>
+                                      
+                                          <option value="258" title="58">+58 Venezuela </option>
+                                      
+                                          <option value="261" title="84">+84 Vietnam </option>
+                                      
+                                          <option value="260" title="1284">+1284 Virgin Islands (U.S.) </option>
+                                      
+                                          <option value="277" title="681">+681 Wallis and Futuna </option>
+                                      
+                                          <option value="279" title="212">+212 Western Sahara </option>
+                                      
+                                          <option value="265" title="967">+967 Yemen, Rep. </option>
+                                      
+                                          <option value="267" title="260">+260 Zambia </option>
+
+                                          <option value="268" title="263">+263 Zimbabwe </option>
+                                      
+                                  
+                              
+                          </select>
+                      </span>
+                  </div>
+                
+              </section>
+    
+              <section>
+     -->

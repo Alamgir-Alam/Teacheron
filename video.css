@@ -1,0 +1,944 @@
+
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    }
+
+    
+    .navbar{                              /* Nav-Bar*/
+    height: 89px;
+    background-color:white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+    
+    .nav-logo{
+    
+    height: 100px;                       /* Logo Teacher Height & Width*/
+    width: 170px;
+     margin-right: 280px; 
+    
+    }
+    
+    
+    
+    .logo{                                         /* Logo Link Height And Margin*/
+    
+        background-image: url(https://assets2.teacheron.com/resources/assets/img/customImages/teacheron-transparent-small.png )  ;
+    background-size: cover;
+        height: 50px;
+         width: 150px;
+    margin-top: 25px;
+   
+    
+    }
+    
+    
+    
+    .border- {                                   /* Request Tutor or Find Tutor Jobs (class .border) use for change color */
+    border: 1px solid transparent;
+    color: rgb(134, 140, 143);
+    }
+
+
+    .border-:hover{
+    border: 1px solid rgb(52, 152, 219);
+    background: #0056b3;
+    border-color: black;
+
+
+    } 
+    
+
+
+
+
+.hey-store{                                     /*Store Key*/
+margin-top: 28px;
+}
+
+
+
+
+    
+    .store-line{
+    color: rgb(134, 140, 143);               /*Store Key*/
+    font-size: 1rem;
+    /* margin-left: 20px; */
+   text-decoration: none;
+    
+    }
+    
+    .find-tutor {
+        color:rgb(134, 140, 143);             /* Request a Tutor Scrol down*/
+        font-size: 1rem;
+        margin-left: 40px;
+        margin-top: 20px;
+         height: 20px;
+    }
+    
+    .find-tutor-J{                               /* Find Tutor Jobs Scroll Down*/
+    color: rgb(134, 140, 143);           
+        font-size: 1rem;
+        margin-left: 40px;
+        margin-top: 20px;
+    
+    }
+    
+    .help{
+        color: rgb(134, 140, 143);
+        font-size: 1rem;
+        margin-left: 40px;
+        margin-top: 20px;
+    
+    }
+
+.hello-{
+    margin-left: 20px;                               /* Assigment Help Key*/
+    margin-top: 20px;
+
+}
+
+.inner-{
+    color: rgb(134, 140, 143);                   /* Assigment Help  key*/
+    text-decoration: none; 
+}
+
+
+
+    .log-in{
+    
+        font-size: 1rem;
+        margin-left: 40px;
+        margin-bottom: 0px;
+        height: 20px;
+        color: black;                             
+       text-decoration: none;
+       border: 2px solid rgb(22, 160, );
+    
+    }
+    
+    /* .border */
+    .border{
+        border: non;
+    }
+    
+    .size-button{
+    
+    font-size: 16px;
+    font-weight: 400;                                             /* Login Button*/
+    letter-spacing: .0px;
+    line-height: 21px;
+    box-sizing: border-box;
+    border-radius: 0;
+    color: #687074;
+    border: 1px solid rgb(22, 160,  133);
+    padding: 8px 10px 8px 10px;
+    width: 80px;
+    background-color: white;
+    
+    }
+    .request-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:rgb(22, 160, 133);
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+        /* transition: background-color 0.3s ease; */
+        margin-left: 10px;
+     margin-top: 20px;
+    
+    }
+
+
+
+    .request-button:hover {
+        background-color: #0056b3;}
+    
+    /* Back Ground image */
+    
+    .hero-section{
+     background-image: url("back.img.jpeg"); 
+    background-size: cover;
+    height: 300px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    }
+    
+
+    
+    
+    .transparent-box {
+        
+        background-color: rgba(29, 39, 49, 0.7); 
+        /* border-radius: 10px; */
+        padding: 15px;
+        /* margin: 50px auto; */
+        /* max-width: 60\\px;  */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);  */
+         text-align: center;
+         /* align-items: center;  */
+        max-width: 700px;
+        display: flex;
+    /* margin-bottom: 200px; */
+    
+    
+    }
+    
+    .input-container {
+        display: inline-flex;   
+        align-items: center;
+         /* Added margin for spacing */                                    
+                                                                                      
+                                                                                     /* Wait  */
+
+        
+    }
+    
+    .input-container input[type="text"] {
+        padding: 10px;
+        /* margin: px; */
+        /* border-radius: 5px; */
+        /* border: 1px solid #ccc; */
+        /* box-sizing: border-box; */
+     
+    }
+
+.glass-g{
+    /* height: 25px; 
+    /* width: 25px; */
+background-color: #0056b3;
+}
+
+.button{
+     height: 35px; 
+    /* width: 100% ; */
+    background-color: rgb(114, 124, 254);
+    color: white;
+    /* box-shadow: 25px; */
+}
+
+    
+    .vertical-line {
+        height: 70px; 
+        /* border-left: 1px solid #ccc; */
+        /* margin: 0 10px;           */
+            }
+
+    
+
+
+/* 
+
+    .search-icon {
+        margin-left: 10px; 
+        cursor: pointer;  
+    }
+     */
+    
+
+
+
+
+
+
+    h2 {
+        margin-top:00 ;
+        display: inline-flex;  }                                                     
+
+
+
+
+
+
+/*     
+    .text{
+        display: flex;                                 Text property Comment
+        display: inline;
+  
+    }
+
+
+ */
+
+
+
+
+/*     
+    .box{                                                   Box Property Comment             
+    
+        height: 600px;
+
+    } */
+
+   
+          
+                                                         /*Text Property Comment*/
+       /* ._text{
+    margin-top: 35px;
+    /* margin-left: 350px; 
+    color: #0056b3;
+    font-weight: 800px;
+    } */
+
+                                                                    
+                                                        /* Teachers and Teaching Jobs Section  */
+
+    .container-{
+
+     
+        width: 100%;
+        color: rgb( 52, 152, 219);
+        background-color: white;
+        flex-wrap: wrap;
+        row-gap: 50px;
+        /* column-gap: 60px; */
+         text-align: center; 
+        justify-content: space-evenly;
+        margin-top: 30px;
+        display: flex;
+        
+        }
+        
+        
+        .request-button_  {
+            margin-top: 20px; 
+            display: inline-block; 
+            border: 0.5px solid black;
+            padding: 10px 20px;
+            background-color: white;
+            color: black;
+            margin-left: 05px;
+         justify-content:space-evenly;                                 /* STOP */
+         text-decoration: none;
+          width: 120px;                                        /*control box width */
+        
+        
+}
+
+
+
+
+
+      .word{
+     font-size: 30px;                                      /* Teacher and Teacher jobs Heading*/
+    font-weight: 30px;
+        
+        
+        }
+
+.line{                                                         /* Sotre and vist store Between line*/
+color:rgb(85, 85, 85);
+font-size: 25px;
+margin-top: 10px;
+
+}
+
+                                                  /*visit store property comment for no changing*/
+
+/* .vist-store{
+height: 200px;                                            
+width: 100%px;                          
+background-color:white
+} */
+
+
+.space-{
+    color: rgb(52, 152, 219);                           /* Store logo */
+     margin-top: 20px;
+text-align: center;
+font-size: 30px;
+align-items: center;
+
+}
+
+.vist-store-{
+    
+    display: inline-block; 
+    /* border: .05px ; */
+    padding: 10px 20px;
+    background-color: rgb(114, 124, 245);
+    color: white;
+    text-decoration: none;
+    /* margin-bottom: 30px; */
+    /* text-align: end; */
+    /* text-align: center; */
+}
+
+
+.space-{
+    flex-shrink: inherit;                                                   /*Pra-word*/
+    text-align: center;
+    }
+        
+
+
+
+
+
+
+.task{
+/* margin-top: 20px; */
+text-align: center;
+}
+
+
+.back-img{
+    
+background-image: url("ssc.jpeg");
+/* background-size: cover; */
+/* height: 470px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+    
+     background-size: 100% auto;
+     background-repeat: no-repeat;
+     background-position: center; 
+     width: 100%; 
+     height: 100vh;
+
+}
+
+
+.create-back{
+    background-image: url("back-wal.jpeg");
+    /* background-size: cover; 
+    height: 650px;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    */
+   
+ 
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%; 
+    height: 100vh;
+
+
+
+
+    }
+
+    
+
+
+
+
+.heading {
+
+    text-align: center;
+color: #687074;
+margin-top: 30px;
+}
+
+
+
+
+        /* For Hower use */
+
+        .links-container a:hover {
+            text-decoration: underline;
+            
+          }
+        
+        
+
+
+
+ .links-container {
+    
+    
+     width: 100%; 
+    display: flex;
+    flex-wrap: wrap;
+      text-align: center;
+      justify-content: center;
+      height: 450px;
+      
+ }
+       
+
+
+  .links-container a {
+    height: 25px;
+    text-decoration: none;
+    color: rgb(111, 182, 231);
+    
+    /* transition: background-color 0.3s ease; */
+    text-align: center;
+box-sizing: border-box; 
+flex-wrap: wrap;
+  }
+
+
+.hello a{
+
+    padding: 6.5px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+  
+}
+
+
+
+
+
+
+
+
+.last-container{
+
+    
+     width: 100%; 
+    color: white;
+    background-color: rgb(34, 34, 34);
+    flex-wrap: wrap;
+  column-gap: 20px;
+display: flex;
+/* flex-direction: row; */
+justify-content: center;
+align-content: space-between;
+
+}
+
+
+
+
+.Res-ource a{
+    height: 20px;
+width: 100%;
+ color: white;
+padding: 6.5px;
+display: flex;
+flex-direction: row;
+text-decoration: none;
+justify-content: space-evenly
+
+}
+
+
+.for-teachers a{
+    height: 20px;
+    width: 100%;
+    color: white;
+   padding: 6.5px;
+   display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   /* margin-top: 12px; */
+   justify-content: space-evenly
+   }
+   
+   
+   .help-feed a{
+       height: 20px;
+       width: 100%;
+       color: white;
+       padding: 6.5px;
+       display: flex;
+   flex-direction: row;
+   text-decoration: none;
+   /* margin-top: 12px; */
+   justify-content: space-evenly 
+   
+  
+}
+   
+   
+
+
+.text-in{
+    color: white;
+}
+
+.pra-one{
+
+    color: rgb(114, 192, 161);
+    border-bottom: 2px solid;
+    margin-top: 30px;}
+
+
+
+
+
+
+
+
+
+    
+    
+                                                                              /* Learning Mind New Page     */
+
+
+   
+
+
+
+
+        .container {
+            background-color:white;
+            padding: 20px;
+            border-radius: 10px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+            max-width: 600px;
+            margin: 0 auto;
+          }
+          
+          .container h2 {
+            font-size: 24px;
+            color:rgb(52, 152, 219);
+            margin-bottom: 10px;
+          }
+          
+          .container p {
+            font-size: 16px;
+            color: #666;
+            margin-bottom: 15px;
+          }
+          
+          .container a {
+            display: inline-block;
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+          }
+          
+          .container a:hover {
+            background-color: #0056b3;
+          }
+
+
+
+   
+ /* Stay-Safe Page#2    */
+  
+
+.container {
+  background-color: white;
+  padding: 20px;
+  
+
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 24px;
+  color:rgb(85, 85, 85);
+  margin-bottom: 10px;
+}
+
+.container p {
+  font-size: 16px;
+color: rgb(85, 85, 85);
+  margin-bottom: 15px;
+}
+
+.head-line{
+    color:rgb(85, 85, 85);
+}
+
+.comment-box {
+    height: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 190px;
+
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+                                                                                     /* Bolg Page#3 */
+ 
+                                                                     /* All Styling set with page 1 or 2  */
+
+
+
+                                                                     /* Refer and earn coins Page#4      
+                                                                       All Styling set with page 1 or 2  */      
+
+
+
+
+
+
+                                                                      /* Refer and earn coins Page#5       
+                                                                      All Styling set with page 1 or 2  */   
+
+                                                                      
+                                                                      /* Refer and earn coins Page#6       
+                                                                      All Styling set with page 1 or 2  */   
+
+
+
+                                                                      
+                                                                      /* Refer and earn coins Page#7       
+                                                                      All Styling set with page 1 or 2  */   
+                                                                  
+
+                                                                       /* Refer and earn coins Page#8      
+                                                                      All Styling set with page 1 or 2  */   
+                                                                  
+
+                                                                       /* Get Paid Page#9     
+                                                                      All Styling set with page 1 or 2  */   
+                                                                      
+                                                                      /* Premium membership page#10
+                                                                      All Styling set with page 1 or 2 */
+
+                                                                       /* How it works - Teachers page#11
+                                                                      All Styling set with page 1 or 2 */
+
+
+                                                                       /* How to get jobs page#12
+                                                                      All Styling set with page 1 or 2 */
+
+                                                                       /* Applying to jobs page#13
+                                                                      All Styling set with page 1 or 2 */
+
+                                                                      
+                                                                       /* Teacher Rankings page#14
+                                                                      All Styling set with page 1 or 2 */
+
+                                                                       /* Share a story page#15
+                                                                      All Styling set with page 1 or 2 */
+
+                                                                                /* Feed Back page#16
+                                                                      All Styling set with page 1 or 2 */
+                                                                      
+                                                                                /* Testimonials page#17
+                                                                      All Styling set with page 1 or 2 */
+                                                                         
+                                                                                /* Refund Policy page#18
+                                                                      All Styling set with page 1 or 2 */
+
+
+                                                                         
+                                                                                /* Privacy Policy page#16
+                                                                      All Styling set with page 1 or 2 */
+
+
+                                                                         
+                                                                                /* Terms page#16
+                                                                      All Styling set with page 1 or 2 */
+
+
+
+
+
+
+                                                                      
+
+
+                                                                      
+
+
+
+                                                                   
+                                                                  
+                                                                  
+                                                                  
+                                                                  
+                                                                      body {
+                                                                      
+                                                                        line-height: 1.6;
+                                                                        margin: 0;
+                                                                        padding: 10px;
+                                                                    }
+                                                                    h1 {
+                                                                        text-align: center;
+                                                                    }
+                                                                    table {
+                                                                        width: 100%;
+                                                                        border-collapse: collapse;
+                                                                        margin-bottom: 20px;
+                                                                 
+                                                                    }
+                                                                    th, td {
+                                                                        border: 1px solid #ddd;
+                                                                        padding: 8px;
+                                                                        text-align: left;
+                                                                    }
+                                                                    th {
+                                                                        background-color: #f2f2f2;
+                                                                    }  
+
+
+
+
+                                                                    /* Request a Tutor Page */
+                                                                    /* Requst a Online Assigment Page */
+
+
+
+                                                                    .container {
+                                                                      width: 100%;
+                                                                        margin: 50px auto;
+                                                                        padding: 20px;
+                                                                        border: 1px solid #ccc;
+                                                                        border-radius: 5px;
+                                                                        box-sizing: border-box;
+                                                                        position: relative;
+                                                                    
+                                                                
+                                                                    
+                                                                      h1 {
+                                                                        margin-top: 0;
+                                                                      }}
+                                                                    
+                                                                      .email-input {
+                                                                        width: 100%;
+                                                                        
+                                                                        padding: 08px;
+                                                                        border: 1px solid #ccc;
+                                                                        border-radius: 5px;
+                                                                
+                                                                        box-sizing: border-box;
+                                                                        /* height: 120x; */
+                                                                      }
+                                                                    
+                                                                      .search-btn {
+                                                                        margin-top: 20px;
+                                                                        bottom: 10px;
+                                                                        right: 10px;
+                                                                        padding: 10px 20px;
+                                                                        background-color: rgb(40, 96, 144);
+                                                                        color: #fff;
+                                                                        border: none;
+                                                                        border-radius: 5px;
+                                                                        cursor: pointer;
+                                                                      }
+                                                                      .heading-text {
+
+                                                                          text-align: center;
+                                                                          color: rgb(85, 85, 85);
+                                                                          font-size: 30px;
+                                                                          font-weight: 40px;
+                                                                      }
+
+
+                                                                      /* Login Page */
+
+                                                                      .container {
+                                                                     
+                                                                        border: 1px solid #ccc;
+                                                                        border-radius: 5px;
+                                                                        box-sizing: border-box;
+                                                                        text-align: center;
+                                                                        color: rgb(85, 85, 85);
+                                                                        width: 30%;
+                                                                        justify-content: center;
+                                                                        height: 200px;
+                                                                        box-shadow: 0px 0px 10px rgba(0, 0, 0, 2.2);
+                                                                      }
+                                                                    
+                                                                      h1 {
+                                                                        margin-top: 0;
+                                                                      }
+                                                                    
+                                                                      .options {
+                                                      
+                                                                     
+                                                                        margin-top: 20px;
+                                                                      }
+                                                                    
+                                                                      .option {
+                                                               
+                                                                        
+                                                                        margin: 0 30px;
+                                                                        border: 4.5px solid;
+                                                                   
+                                                                        cursor: pointer;
+                                                                        transition: background-color 1.3s ease;
+                                                                        
+                                                                        
+                                                                      }
+                                                                    
+                                                                      .google {
+                                                                        background-color:rgb(66, 133, 244);
+                                                                        color: #fff;
+                                                                        border-color: white;
+                                                                        width: 80%;
+                                                                      }
+                                                                    
+                                                                      .email {
+                                                                        background-color:rgb(51, 51, 51);
+                                                                        color: #fff;
+                                                                        border-color: white;
+                                                                        width: 80%;
+                                                                      }
+                                                                    
+                                                                      .option:hover {
+                                                                        background-color: rgba(0, 0, 0, 0.1);
+                                                                      }
+                                                                      .two-text{
+
+                                                                        color: white;
+                                                                      }
+                                                                    
+
+                                                                     /* footer */
+                                                                     
+                                                             
+
+                                                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

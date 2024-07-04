@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container">
+        <div class="img-card">
+            <img class="card" src="pic.png" alt="image" />
+        </div>
+        <div class="login">
+            <h5><a class="log" href="login.html">Login</a></h5>
+        </div>
+    </div>
+</nav>
+
+<div class="heading">
+    <h1>Check your inbox to verify email</h1>
+    
+</div>
+<div class="note">
+<div class="content">
+
+<p>We've sent an email to <strong>alamgirpluton@gmail.com</strong>
+    <br>
+    Follow the instructions to verify your email address
+    <br>
+</p>
+</div>
+</div>
+
+<div class="img-card">
+    <img src="image.jpeg" alt="image" />
+  </div>
+
+     <div class="container text-center">
+         <a class="received" href="javascript:void(0);" onclick="showReceiveEmailBox();">I have not received mail</a><br><br>
+     </div>
+ 
+     <div class="col-sm-12 text-center" id="receiveemail" style="display: none;">
+         <!-- <ul class="vertical-list" style="margin-left: -25px; text-align: left;"> -->
+             <p>
+                 <div class="margin-bottom-10">50% chance you have typed your email wrong. <b>Change email:</b></div>
+                 <b class="hidden">alamgirpluton@gmail.com </b>
+
+                 <div>
+
+
+                     <form method="post" id="changeEmailForm" action="javascript:void(0);">
+                         <input type="hidden" name="_csrf" value="05e7dead-1805-4479-a344-97ccc1e7a919">
+                         <input type="hidden" name="oldEmail" id="oldEmail" value="alamgirpluton@gmail.com">
+                       <div class="response" > <input class="form-control" type="text" name="newEmail" id="newEmail" value="alamgirpluton@gmail.com"></div>
+                       
+                       
+                         <!-- below field is optional read above instruction for logic -->
+                         <div id="customCommonError" class="alert alert-danger-light margin-top-10 margin-bottom-0" style="display: none;"></div>
+                         <input class="btn btn-u btn-u-blue margin-top-10 rounded margin-bottom-10" id="changeEmailBtn" type="button" value="Submit" title="Submit">
+                         <img id="changeEmailBtn_loader" style="display: none;" src="/resources/assets/img/customImages/load.gif">
+                         <br>
+                     </form>
+                 </div>
+                </p>
+                <div class="adjust">
+                <div class="asdasd">
+             <li>30% chance it's in spam folder. Please check your spam mail. If you find it in spam, please mark it as "Not spam" so that future mails will reach right in your inbox.</li>
+             <br>
+             <li>25% chance - If you are using gmail, it might be in a different tab like "Promotions" or "Social". If it's in the wrong tab in email, move it to "Primary" tab. That would ensure you are not missing on important notifications<br> from us.</li>
+
+             <br>
+             <li>5% chance it's been blocked by email blockers (like boxbe) or you have exceeded your storage space for email usage. Please also check settings of your email blockers in case that is what is stopping our mails from reaching your inbox.</li><br>
+             <br>
+             <!-- <li class="hidden"> <a class="hidden" href="https://www.teacheron.com/contact">Let us know</a></li> -->
+            </div></div>
+         </ul>
+     </div>
+ 
+     <!-- JavaScript function -->
+     <script>
+         function showReceiveEmailBox() {
+             var receiveEmailDiv = document.getElementById('receiveemail');
+             if (receiveEmailDiv.style.display === 'none') {
+                 receiveEmailDiv.style.display = 'block';
+             } else {
+                 receiveEmailDiv.style.display = 'none';
+             }
+         }
+     </script>
+ 
+     <!-- Optional: Link to external JavaScript file -->
+     <script src="script.js" defer></script>
+ 
+
+<style>
+
+
+
+/* Global reset and basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    
+}
+                                                            
+.container {                                    
+    max-width: 1200px;
+    margin: 0 auto;                   
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #0056b3; */
+
+}
+
+.text-center {
+    text-align: center;
+ 
+}
+
+.vertical-list {
+    list-style-type: none;
+     margin-left: 0px;
+    padding-left: 0px; 
+
+
+   
+
+}
+
+.vertical-list li {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.vertical-list li:last-child {
+    margin-bottom: 0;
+}
+
+.margin-bottom-10{
+    margin-bottom: 10px;
+} 
+
+.hidden {
+    display: none;
+    
+}
+
+
+.alert {
+    padding: 10px;
+    /* background-color: #f8d7da; */
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    border-radius: 4px;
+}
+
+
+.btn {
+    display: inline-block;
+    
+    /* padding: 8px 20px; */                                        /* padding */                                  
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    height: 30px;
+    width: 80px;
+    margin-top: 10px;
+    
+    
+}
+
+.asdasd{
+    height: auto;
+    width: 40%;
+    /* background-color: #0056b3; */
+
+}
+.adjust{
+    height: auto;
+    width: auto;
+    /* background-color: #721c24; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Adjust other styles as needed */
+
+.form-control{
+
+    /* background-color: #0056b3; */
+    height: 50px;
+    width: auto;
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 05px;
+ max-width: fit-content; 
+
+}
+
+.response{
+    /* background-color: green; */
+height: auto;
+    width: 100%;
+
+}
+
+
+
+    /* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+    /* background-color: #333; */
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar .container {
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Add padding to the container */
+
+}
+
+.img-card {
+    display: flex; 
+  
+}
+
+.card {
+    height: 70px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.log {
+    text-decoration: none;
+   color: gray;
+    font-size: larger;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .navbar .container {
+        flex-direction: column;
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .img-card {
+        margin-bottom: 10px; /* Add space below the logo/image */
+    }
+
+    .card {
+        height: auto; /* Allow the logo/image to resize */
+        width: 100%; /* Make the logo/image full width */
+    }
+
+    .login {
+        margin-top: 10px; /* Add space above the login section */
+    }
+}
+
+.heading{
+    height: auto;
+    width: auto;
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: rgb(32, 80, 132);
+    font-size: large;
+
+}
+
+.content{
+    
+    /* height: auto; */
+    
+    /* background-color: blueviolet; */
+    text-align: center;
+    margin-top: 30px;
+color: black;
+    /* color: rgb(85, 85, 122); */
+}
+.note{
+    height: auto;
+    width: auto;
+    /* background-color: #721c24; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+.img-card{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.email{
+    height: auto;
+    width: auto;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.received{
+    text-decoration: none;
+font-size: xx-large;
+    color: rgb(89, 174, 224);
+}
+
+
+</style>
+
+
+</body>
+</html>
